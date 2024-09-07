@@ -6,7 +6,7 @@ This project focuses on performing **sentiment analysis** on Twitter data using 
 
 - **Sentiment Classification**: Classifies tweets into positive or negative.
 - **Machine Learning Models**: Uses various ML algorithms like Logistic Regression, Random Forest, and Naive Bayes for classification.
-- **Data Preprocessing**: Includes data cleaning, tokenization, and vectorization (TF-IDF/CountVectorizer) of tweet text.
+- **Data Preprocessing**: Includes data cleaning, tokenization, and vectorization of tweet text.
   
 
 ## Dataset
@@ -54,23 +54,7 @@ Ensure you have the following installed before running the project:
    !chmod 600 ~/.kaggle/kaggle.json
    ```
 
-3. **Download the Dataset**:
-   - Use the Kaggle API to download the dataset:
-     ```python
-     !kaggle datasets download -d <dataset-identifier>
-     ```
-
-4. **Unzip the Dataset**:
-   ```python
-   !unzip <dataset.zip>
-   ```
-
-5. **Load the Dataset into a DataFrame**:
-   ```python
-   import pandas as pd
-   df = pd.read_csv('<dataset.csv>')
-   ```
-This setup now reflects using the Kaggle API to access the dataset directly from Google Colab.
+This allows using the Kaggle API to access the dataset directly from Google Colab.
 
 
 ## Usage
@@ -95,7 +79,7 @@ This setup now reflects using the Kaggle API to access the dataset directly from
 
 ## Screenshots
 
-![Screenshot 2024-09-07 211944](https://github.com/user-attachments/assets/844fda0b-ebe3-4af0-8ea3-e6d4b06bd7c4)                 ![Screenshot 2024-09-07 212045](https://github.com/user-attachments/assets/b310ae0a-4f56-48e8-900e-426963eb065b)
+![Screenshot 2024-09-07 211944](https://github.com/user-attachments/assets/844fda0b-ebe3-4af0-8ea3-e6d4b06bd7c4)                       ![Screenshot 2024-09-07 212045](https://github.com/user-attachments/assets/b310ae0a-4f56-48e8-900e-426963eb065b)
 
 
 ## Future Improvements
