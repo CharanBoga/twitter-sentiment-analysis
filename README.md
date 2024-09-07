@@ -87,7 +87,7 @@ This setup now reflects using the Kaggle API to access the dataset directly from
    ```
 
 3. **Model Evaluation**:
-   - Evaluate the model using accuracy, precision, recall, and F1-score.
+   - Evaluate the model using accuracy.
    ```python
    from sklearn.metrics import accuracy_score
    accuracy = accuracy_score(y_test, y_pred)
@@ -95,7 +95,7 @@ This setup now reflects using the Kaggle API to access the dataset directly from
 
 ## Screenshots
 
-![Screenshot 2024-09-07 211944](https://github.com/user-attachments/assets/844fda0b-ebe3-4af0-8ea3-e6d4b06bd7c4)    ![Screenshot 2024-09-07 212045](https://github.com/user-attachments/assets/b310ae0a-4f56-48e8-900e-426963eb065b)
+![Screenshot 2024-09-07 211944](https://github.com/user-attachments/assets/844fda0b-ebe3-4af0-8ea3-e6d4b06bd7c4)                 ![Screenshot 2024-09-07 212045](https://github.com/user-attachments/assets/b310ae0a-4f56-48e8-900e-426963eb065b)
 
 
 ## Future Improvements
